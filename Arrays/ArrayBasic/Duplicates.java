@@ -35,10 +35,11 @@ public class Duplicates {
     int i = 0;
     ArrayList<Integer> myArray = new ArrayList<>();
      while (i<nums.length) {
-        if(nums[i] != i+1  ){ 
+        
+        if( nums[i] != i+1  ){ 
             myArray.add(nums[i]);
-         }i++;
+            }i++;
    }
       return myArray;
-    }
+ }
 }
