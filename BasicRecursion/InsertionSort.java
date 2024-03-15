@@ -9,25 +9,21 @@ public class InsertionSort {
 
     static void sort(int[] arr, int n) {
 
-        if (n == 1) {
+        if (n <= 1) {
             return;
         }
-
-        int c = 0;
-
-        for (int i = 0; i < n - 1; i++)
-            if (arr[i] > arr[i + 1]) {
-
-                int temp = arr[i];
-                arr[i] = arr[i + 1];
-                arr[i + 1] = temp;
-                c = c + 1;
-            }
-
-        if (c == 0) {
-            return;
-        }
-
         sort(arr, n - 1);
+
+        int last = arr[n - 1];
+        int i = n - 2;
+
+        while (i >= 0 && arr[i] > last) {
+
+            arr[i + 1] = arr[i];
+            i--;
+        }
+
+        arr[i + 1] = last;
+
     }
 }
