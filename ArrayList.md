@@ -22,27 +22,44 @@ public class Main {
         arrayList.add("Orange");
     }
 }
-Iterating Over an ArrayList
+
+```
+
+## Iterating Over an ArrayList
+
 You can iterate over the elements of an ArrayList using various methods, such as for-each loop or Iterator. Here's an example using a for-each loop:
 
+```
 java
 Copy code
 for (String item : arrayList) {
     System.out.println(item);
 }
-Common Methods of ArrayList
+
+```
+
+### Common Methods of ArrayList
+
 ArrayList provides several methods for adding, removing, accessing elements, and more. Some of the commonly used methods include:
 
 add(E element): Adds an element to the end of the ArrayList.
+
 add(int index, E element): Inserts an element at the specified index.
+
 remove(int index): Removes the element at the specified index.
+
 remove(Object obj): Removes the first occurrence of the specified element.
+
 get(int index): Returns the element at the specified index.
+
 set(int index, E element): Replaces the element at the specified index with the specified element.
+
 size(): Returns the number of elements in the ArrayList.
+
 clear(): Removes all elements from the ArrayList.
 Here's an example demonstrating some of these methods:
 
+```
 java
 Copy code
 ArrayList<String> arrayList = new ArrayList<>();
@@ -56,11 +73,11 @@ System.out.println("Element at index 1: " + arrayList.get(1));
 
 arrayList.remove("Banana");
 System.out.println("After removing 'Banana': " + arrayList);
-This will output:
 
+<!-- This will output:
 mathematica
 Copy code
 Size of ArrayList: 3
 Element at index 1: Banana
-After removing 'Banana': [Apple, Orange]
+After removing 'Banana': [Apple, Orange] -->
 ```
