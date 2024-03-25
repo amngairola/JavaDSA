@@ -96,14 +96,15 @@ java
 Copy code
 String str = "Hello";
 char[] charArray = str.toCharArray();
+
+
+```
+
 Char Array to String:
 You can convert a character array to a string using the String class constructor that accepts a character array as an argument.
 
 ```
 
-```
-java
-Copy code
 char[] charArray = {'H', 'e', 'l', 'l', 'o'};
 String str = new String(charArray);
 ```
@@ -114,12 +115,15 @@ Using String.valueOf(char):
 
 ```
 java
-Copy code
+
 char myChar = 'a';
 String myString = String.valueOf(myChar);
 Using Character.toString(char):
+```
+
 java
-Copy code
+
+```
 char myChar = 'a';
 String myString = Character.toString(myChar);
 ```

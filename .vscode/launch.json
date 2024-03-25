@@ -1,182 +1,189 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "type": "java",
-            "name": "Current File",
-            "request": "launch",
-            "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "AUB",
-            "request": "launch",
-            "mainClass": "AUB",
-            "projectName": "JavaDSA_4d2cb6c6"
-        },
-        {
-            "type": "java",
-            "name": "CyclicSort",
-            "request": "launch",
-            "mainClass": "CyclicSort",
-            "projectName": "JavaDSA_4d2cb6c6"
-        },
-        {
-            "type": "java",
-            "name": "DisappearedNumber",
-            "request": "launch",
-            "mainClass": "DisappearedNumber",
-            "projectName": "JavaDSA_4d2cb6c6"
-        },
-        {
-            "type": "java",
-            "name": "Duplicates",
-            "request": "launch",
-            "mainClass": "Duplicates",
-            "projectName": "JavaDSA_4d2cb6c6"
-        },
-        {
-            "type": "java",
-            "name": "Dupllicate",
-            "request": "launch",
-            "mainClass": "Dupllicate",
-            "projectName": "JavaDSA_4d2cb6c6"
-        },
-        {
-            "type": "java",
-            "name": "Main",
-            "request": "launch",
-            "mainClass": "FUNCTION.Main",
-            "projectName": "JavaDSA_4d2cb6c6"
-        },
-        {
-            "type": "java",
-            "name": "FindMissing",
-            "request": "launch",
-            "mainClass": "FindMissing",
-            "projectName": "JavaDSA_4d2cb6c6"
-        },
-        {
-            "type": "java",
-            "name": "FindSingle",
-            "request": "launch",
-            "mainClass": "FindSingle",
-            "projectName": "JavaDSA_4d2cb6c6"
-        },
-        {
-            "type": "java",
-            "name": "Ksum",
-            "request": "launch",
-            "mainClass": "Ksum",
-            "projectName": "JavaDSA_4d2cb6c6"
-        },
-        {
-            "type": "java",
-            "name": "LongestSub",
-            "request": "launch",
-            "mainClass": "LongestSub",
-            "projectName": "JavaDSA_4d2cb6c6"
-        },
-        {
-            "type": "java",
-            "name": "Mismatch",
-            "request": "launch",
-            "mainClass": "Mismatch",
-            "projectName": "JavaDSA_4d2cb6c6"
-        },
-        {
-            "type": "java",
-            "name": "MissingPositive",
-            "request": "launch",
-            "mainClass": "MissingPositive",
-            "projectName": "JavaDSA_4d2cb6c6"
-        },
-        {
-            "type": "java",
-            "name": "Hello",
-            "request": "launch",
-            "mainClass": "Recursion.Basic.Hello",
-            "projectName": "JavaDSA_4d2cb6c6"
-        },
-        {
-            "type": "java",
-            "name": "Print",
-            "request": "launch",
-            "mainClass": "Recursion.Basic.Print",
-            "projectName": "JavaDSA_4d2cb6c6"
-        },
-        {
-            "type": "java",
-            "name": "ShiftArr",
-            "request": "launch",
-            "mainClass": "ShiftArr",
-            "projectName": "JavaDSA_4d2cb6c6"
-        },
-        {
-            "type": "java",
-            "name": "Operator",
-            "request": "launch",
-            "mainClass": "StringBuilder.Operator",
-            "projectName": "JavaDSA_4d2cb6c6"
-        },
-        {
-            "type": "java",
-            "name": "Output",
-            "request": "launch",
-            "mainClass": "StringBuilder.Output",
-            "projectName": "JavaDSA_4d2cb6c6"
-        },
-        {
-            "type": "java",
-            "name": "Performance",
-            "request": "launch",
-            "mainClass": "StringBuilder.Performance",
-            "projectName": "JavaDSA_4d2cb6c6"
-        },
-        {
-            "type": "java",
-            "name": "Pllindrome",
-            "request": "launch",
-            "mainClass": "StringBuilder.Pllindrome",
-            "projectName": "JavaDSA_4d2cb6c6"
-        },
-        {
-            "type": "java",
-            "name": "PrettyPrinting",
-            "request": "launch",
-            "mainClass": "StringBuilder.PrettyPrinting",
-            "projectName": "JavaDSA_4d2cb6c6"
-        },
-        {
-            "type": "java",
-            "name": "Sb",
-            "request": "launch",
-            "mainClass": "StringBuilder.Sb",
-            "projectName": "JavaDSA_4d2cb6c6"
-        },
-        {
-            "type": "java",
-            "name": "Str",
-            "request": "launch",
-            "mainClass": "StringBuilder.Str",
-            "projectName": "JavaDSA_4d2cb6c6"
-        },
-        {
-            "type": "java",
-            "name": "TwoSum",
-            "request": "launch",
-            "mainClass": "TwoSum",
-            "projectName": "JavaDSA_4d2cb6c6"
-        },
-        {
-            "type": "java",
-            "name": "UnionofArray",
-            "request": "launch",
-            "mainClass": "UnionofArray",
-            "projectName": "JavaDSA_4d2cb6c6"
-        }
-    ]
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "PP",
+      "request": "launch",
+      "mainClass": "Recursion.Basic.PP",
+      "projectName": "JavaDSA_4d2cb6c6"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "AUB",
+      "request": "launch",
+      "mainClass": "AUB",
+      "projectName": "JavaDSA_4d2cb6c6"
+    },
+    {
+      "type": "java",
+      "name": "CyclicSort",
+      "request": "launch",
+      "mainClass": "CyclicSort",
+      "projectName": "JavaDSA_4d2cb6c6"
+    },
+    {
+      "type": "java",
+      "name": "DisappearedNumber",
+      "request": "launch",
+      "mainClass": "DisappearedNumber",
+      "projectName": "JavaDSA_4d2cb6c6"
+    },
+    {
+      "type": "java",
+      "name": "Duplicates",
+      "request": "launch",
+      "mainClass": "Duplicates",
+      "projectName": "JavaDSA_4d2cb6c6"
+    },
+    {
+      "type": "java",
+      "name": "Dupllicate",
+      "request": "launch",
+      "mainClass": "Dupllicate",
+      "projectName": "JavaDSA_4d2cb6c6"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "FUNCTION.Main",
+      "projectName": "JavaDSA_4d2cb6c6"
+    },
+    {
+      "type": "java",
+      "name": "FindMissing",
+      "request": "launch",
+      "mainClass": "FindMissing",
+      "projectName": "JavaDSA_4d2cb6c6"
+    },
+    {
+      "type": "java",
+      "name": "FindSingle",
+      "request": "launch",
+      "mainClass": "FindSingle",
+      "projectName": "JavaDSA_4d2cb6c6"
+    },
+    {
+      "type": "java",
+      "name": "Ksum",
+      "request": "launch",
+      "mainClass": "Ksum",
+      "projectName": "JavaDSA_4d2cb6c6"
+    },
+    {
+      "type": "java",
+      "name": "LongestSub",
+      "request": "launch",
+      "mainClass": "LongestSub",
+      "projectName": "JavaDSA_4d2cb6c6"
+    },
+    {
+      "type": "java",
+      "name": "Mismatch",
+      "request": "launch",
+      "mainClass": "Mismatch",
+      "projectName": "JavaDSA_4d2cb6c6"
+    },
+    {
+      "type": "java",
+      "name": "MissingPositive",
+      "request": "launch",
+      "mainClass": "MissingPositive",
+      "projectName": "JavaDSA_4d2cb6c6"
+    },
+    {
+      "type": "java",
+      "name": "Hello",
+      "request": "launch",
+      "mainClass": "Recursion.Basic.Hello",
+      "projectName": "JavaDSA_4d2cb6c6"
+    },
+    {
+      "type": "java",
+      "name": "Print",
+      "request": "launch",
+      "mainClass": "Recursion.Basic.Print",
+      "projectName": "JavaDSA_4d2cb6c6"
+    },
+    {
+      "type": "java",
+      "name": "ShiftArr",
+      "request": "launch",
+      "mainClass": "ShiftArr",
+      "projectName": "JavaDSA_4d2cb6c6"
+    },
+    {
+      "type": "java",
+      "name": "Operator",
+      "request": "launch",
+      "mainClass": "StringBuilder.Operator",
+      "projectName": "JavaDSA_4d2cb6c6"
+    },
+    {
+      "type": "java",
+      "name": "Output",
+      "request": "launch",
+      "mainClass": "StringBuilder.Output",
+      "projectName": "JavaDSA_4d2cb6c6"
+    },
+    {
+      "type": "java",
+      "name": "Performance",
+      "request": "launch",
+      "mainClass": "StringBuilder.Performance",
+      "projectName": "JavaDSA_4d2cb6c6"
+    },
+    {
+      "type": "java",
+      "name": "Pllindrome",
+      "request": "launch",
+      "mainClass": "StringBuilder.Pllindrome",
+      "projectName": "JavaDSA_4d2cb6c6"
+    },
+    {
+      "type": "java",
+      "name": "PrettyPrinting",
+      "request": "launch",
+      "mainClass": "StringBuilder.PrettyPrinting",
+      "projectName": "JavaDSA_4d2cb6c6"
+    },
+    {
+      "type": "java",
+      "name": "Sb",
+      "request": "launch",
+      "mainClass": "StringBuilder.Sb",
+      "projectName": "JavaDSA_4d2cb6c6"
+    },
+    {
+      "type": "java",
+      "name": "Str",
+      "request": "launch",
+      "mainClass": "StringBuilder.Str",
+      "projectName": "JavaDSA_4d2cb6c6"
+    },
+    {
+      "type": "java",
+      "name": "TwoSum",
+      "request": "launch",
+      "mainClass": "TwoSum",
+      "projectName": "JavaDSA_4d2cb6c6"
+    },
+    {
+      "type": "java",
+      "name": "UnionofArray",
+      "request": "launch",
+      "mainClass": "UnionofArray",
+      "projectName": "JavaDSA_4d2cb6c6"
+    }
+  ]
 }
