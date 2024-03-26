@@ -1,25 +1,45 @@
 package Recursion.Basic;
 
+import java.util.Stack;
+
 //https://www.geeksforgeeks.org/problems/parenthesis-checker2744/1
 
 public class ParenthesisCheck {
     public static void main(String[] args) {
         String s = "()";
-        if (check(s, 0, s.length() - 1))
+        if (isValidExpression(s))
             System.out.println("Balanced");
         else
             System.out.println("Not Balanced");
     }
 
-    static boolean check(String str, int s, int e) {
-        if (s > e) {
-            return true;
-        }
-        if (str.charAt(s) != str.charAt(e)) {
-            return false;
+    static boolean isValidExpression(String exp) {
+        return check(exp, 0, new Stack<>());
+    }
+
+    static boolean check(String str, int i, Stack<Character> stack) {
+
+        if (i == str.length()) {
+            return stack.isEmpty();
         }
 
-        return check(str, s + 1, e - 1);
+        char c = str.charAt(i);
+
+        if (c == '(' || c == '{' || c == '[') {
+            stack.push(c);
+        } else if (c == ')' || c == '}' || c == ']') {
+            if (stack.isEmpty()) {
+                return false;
+            }
+
+            char top = stack.pop();
+
+            if ((c == ')' && top != '(') || (c == '}' && top != '{') || (c == ']' && top != '[')) {
+                return false;
+            }
+        }
+
+        return check(str, i + 1, stack);
 
     }
 
