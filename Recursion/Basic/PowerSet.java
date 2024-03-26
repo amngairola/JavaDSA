@@ -7,37 +7,43 @@ import java.util.Arrays;
 
 public class PowerSet {
     public static void main(String[] args) {
-        String str = "cab";
-        powerSet(str);
+
+    public static void main(String[] args) {
+        print("geeks");
     }
 
-    static void powerSet(String s) {
-        char[] c = s.toCharArray();
-        if (c.length == 1) {
-            return;
-        }
-        Arrays.sort(c);
+    static void print(String s) {
         ArrayList<String> al = new ArrayList<>();
-        set(c, al, c.length - 1);
-        System.out.println(al);
+
+        for (int i = 0; i < s.length(); i++) {
+            for (int j = i; j < s.length(); j++) {
+                String str = s.substring(i, j);
+                if (isPallindrome(str, 0, str.length() - 1)) {
+                    al.add(str);
+                }
+            }
+        }
+
+        for (String palindrome : al) {
+            System.out.print(palindrome + " ");
+        }
+
     }
 
-    static void set(char[] str, ArrayList<String> al, int n) {
+    static boolean isPallindrome(String str, int s, int e) {
 
-        if (n < 0) {
-            return;
+        if (e - s == 0) {
+            return true;
+
+        }
+        if (s > e) {
+            return true;
         }
 
-        String s = "";
-
-        for (int i = n; i >= 0; i--) {
-            char c = str[i];
-            String temp = Character.toString(c);
-            s = s.concat(temp);
-            al.add(s);
+        if (str.charAt(s) != str.charAt(e)) {
+            return false;
         }
 
-        set(str, al, n - 1);
-
+        return isPallindrome(str, s + 1, e - 1);
     }
 }
