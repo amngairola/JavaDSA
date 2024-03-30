@@ -13,7 +13,7 @@ Bubbles "rise" to the top of the array as the algorithm progresses.
 Bubble up the smallest (or largest) elements by repeatedly swapping adjacent elements.
 
 - **Pseudocode**:
-  ```plaintext
+  ```
   BubbleSort(arr):
       n = length of arr
       for i from 0 to n-1:
@@ -41,7 +41,6 @@ Insert each element into its proper place, like sorting a deck of cards.
 
 Insert each new element into its proper place by shifting larger elements to the right.
 Pseudocode:
-plaintext
 
 ```InsertionSort(arr):
   n = length of arr
@@ -74,7 +73,6 @@ Select the smallest element and place it in the correct position.
 Select the smallest (or largest) element and swap it with the first unsorted element.
 
 Pseudocode:
-plaintext
 
 ```
 SelectionSort(arr):
