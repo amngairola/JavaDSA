@@ -3,6 +3,9 @@
 ## Bubble Sort
 
 - **Description**: Bubble sort repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted.
+  **Key Idea**: Bubbles "rise" to the top of the array as the algorithm progresses.
+  **Remember**: Bubble up the smallest (or largest) elements by repeatedly swapping adjacent elements.
+
 - **Pseudocode**:
   ```plaintext
   BubbleSort(arr):
@@ -21,8 +24,11 @@ Worst Case: O(n^2) - when the elements are sorted in reverse order. \***\*Space 
 ## Insertion Sort
 
 - **Description**: Insertion sort builds the final sorted array one item at a time. It takes each element from the list and inserts it into its correct position in the already sorted part of the list.
-  Pseudocode:
-  plaintext
+
+**Key Idea**: Insert each element into its proper place, like sorting a deck of cards.
+**Remember**: Insert each new element into its proper place by shifting larger elements to the right.
+Pseudocode:
+plaintext
 
 ```InsertionSort(arr):
   n = length of arr
@@ -45,8 +51,12 @@ Worst Case: O(n^2) - when the elements are sorted in reverse order.
 ## Selection Sort
 
 - **Description**: Selection sort repeatedly finds the minimum element from the unsorted part of the array and moves it to the beginning. The sorted array is built one element at a time.
-  Pseudocode:
-  plaintext
+
+**Key Idea**: Select the smallest element and place it in the correct position.
+**Remember**: Select the smallest (or largest) element and swap it with the first unsorted element.
+
+Pseudocode:
+plaintext
 
 ```
 SelectionSort(arr):
@@ -69,8 +79,12 @@ Worst Case: O(n^2) - always.
 ### Cycle Sort
 
 - **Description**: Cycle sort is an in-place sorting algorithm that works by minimizing the number of memory writes. It is based on the idea that array elements are placed in their correct position one at a time.
-  Pseudocode:
-  plaintext
+
+**Key Idea**: Cycle through the array to find the correct position for each element.
+
+**Remember**: Cycle through the array to place each element where it belongs, minimizing writes.
+Pseudocode:
+plaintext
 
 ```
 CycleSort(arr):
