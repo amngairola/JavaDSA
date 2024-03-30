@@ -66,10 +66,7 @@ Worst Case: O(n^2) - when the elements are sorted in reverse order.
 
 # **Key Idea**:
 
-=======
-
-> > > > > > > 7ecce33be2996c21742b8b007d22c57f62382135
-> > > > > > > Select the smallest element and place it in the correct position.
+Select the smallest element and place it in the correct position.
 
 # **Remember**:
 
