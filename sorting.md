@@ -1,7 +1,5 @@
 # Sorting Algorithms Notes
 
-<<<<<<< HEAD
-
 ## Bubble Sort
 
 - **Description**: Bubble sort repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted.
