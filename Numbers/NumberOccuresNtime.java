@@ -9,14 +9,23 @@ public class NumberOccuresNtime {
 
     static int ans(int[] arr) {
 
-        int count = 0;
-        for (int i = 0; i < arr.length; i++) {
-            int n = arr[i];
-            while (n > 0) {
-                count += n & 1;
-                n >>= 1;
+        int result = 0;
+
+        for (int i = 0; i < 32; i++) {
+            int sum = 0;
+            int mask = 1 << i;
+
+            for (int num : arr) {
+                if ((num & mask) != 0) {
+                    sum++;
+                }
+            }
+
+            if (sum % 3 != 0) {
+                result |= mask;
             }
         }
-        return count % 3;
+
+        return result;
     }
 }
