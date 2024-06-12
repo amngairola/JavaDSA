@@ -2,18 +2,16 @@ package Recursion.Basic;
 
 public class SortArr {
     public static void main(String[] args) {
-        int arr[] = { 20, 23, 23, 0, 45, 78, 88, };
-        System.out.println(print(arr, 5));
+        int arr[] = { 20, 23, 0, 23, 45, 78 };
+        System.out.println(p(arr, 6));
     }
 
-    static boolean print(int[] arr, int n) {
-        if (n == 0) {
+    static boolean p(int[] arr, int length) {
+        int e = length - 1;
+        if (e == 0)
             return true;
-        }
-        if (arr[n] < arr[n - 1]) {
-            return false;
-        }
 
-        return print(arr, n - 1);
+        return arr[e] >= arr[e - 1] && p(arr, length - 1);
     }
+
 }
