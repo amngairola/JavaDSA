@@ -81,3 +81,11 @@ Size of ArrayList: 3
 Element at index 1: Banana
 After removing 'Banana': [Apple, Orange] -->
 ```
+
+//ADD ARARY IN ARAYLIST
+
+// Create an array
+String[] array = {"a", "b", "c", "d"};
+
+        // Convert array to list and create an ArrayList
+        ArrayList<String> arrayList = new ArrayList<>(Arrays.asList(array));
