@@ -55,8 +55,8 @@ public class CombinationSum2 {
 
     }
 
-    // PART -2 **The solution set must not contain duplicate combinations.
-
+    // PART -2 **The solution set must not contain duplicate combinations .
+    // USING SET , FOR NOT ADDING THE DUPLICATE ELEMENT **BROOTFORCE METHOD
     static void Sum(int[] arr, int target, int i, List<Integer> temp) {
         if (i >= arr.length) {
             if (target == 0) {
@@ -76,6 +76,9 @@ public class CombinationSum2 {
 
     }
 
+    // **The solution set must not contain duplicate combinations.
+
+    // --THE OPTIMAL APPROCH
     static void findCombinations(int[] arr, int target, int i, List<Integer> temp) {
 
         if (target == 0) {
@@ -92,6 +95,24 @@ public class CombinationSum2 {
 
             temp.add(arr[j]);
             findCombinations(arr, target - arr[j], j + 1, temp);
+            temp.remove(temp.size() - 1);
+        }
+
+    }
+
+    // Print all subset without containg duplicate subset
+
+    // LINK - https://leetcode.com/problems/subsets-ii/
+
+    static void findCombinations(int[] arr, int i, List<Integer> temp) {
+        ansSet.add(new ArrayList<>(temp));
+        // picking the element from index till length of the array
+        for (int j = i; j < arr.length; j++) {
+            if (j > i && arr[j] == arr[j - 1])
+                continue;
+
+            temp.add(arr[j]);
+            findCombinations(arr, j + 1, temp);
             temp.remove(temp.size() - 1);
         }
 

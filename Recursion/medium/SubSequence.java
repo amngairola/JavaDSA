@@ -9,6 +9,7 @@ public class SubSequence {
         sub(arr, 0, list);
     }
 
+    // GENRATE ALL POSSIBLE SUB SEQUENCE
     static void sub(int[] arr, int i, ArrayList<Integer> ls) {
 
         if (i >= arr.length) {
