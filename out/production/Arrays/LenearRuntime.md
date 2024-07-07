@@ -1,1 +1,0 @@
-## The phrase "linear runtime complexity" refers to an algorithm's time complexity that grows linearly with the size of the input. In simpler terms, as the input size increases, the time taken by the algorithm also increases proportionally. Algorithms with linear runtime complexity are generally efficient and desirable for large datasets.
