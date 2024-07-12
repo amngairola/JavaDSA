@@ -36,4 +36,22 @@ public class Hashing {
         System.out.println(hashmap);
     }
 
+    public static void m() {
+        // Sample array
+        int[] array = { 1, 2, 2, 3, 3, 3, 4, 4, 4, 4 };
+
+        // HashMap to store the count of each element
+        HashMap<Integer, Integer> occurrences = new HashMap<>();
+
+        // Counting occurrences
+        for (int num : array) {
+            occurrences.put(num, occurrences.getOrDefault(num, 0) + 1);
+        }
+
+        // Printing the occurrences
+        for (HashMap.Entry<Integer, Integer> entry : occurrences.entrySet()) {
+            System.out.println("Element: " + entry.getKey() + ", Count: " + entry.getValue());
+        }
+    }
+
 }
