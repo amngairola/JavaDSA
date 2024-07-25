@@ -61,7 +61,7 @@ public class Permutation {
             ans = ans + printcount(f + ch + s, up.substring(1));
 
         }
-
+ 
         return ans;
 
     }
