@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class AggressiveCows {
     public static boolean canWePlace(int[] stalls, int dist, int cows) {
         int n = stalls.length; // size of array
