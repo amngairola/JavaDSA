@@ -1,4 +1,5 @@
 public class ShipCapacity {
+    // https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/description/
     public static void main(String[] args) {
         int[] shipCapacity = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
         System.out.println(shipWithinDays(shipCapacity, 5));
