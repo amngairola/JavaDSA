@@ -1,0 +1,21 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Šã‹Œøÿÿÿÿ8á¦ò´‘2
+e
+java:S2583."CChange this condition so that it does not always evaluate to "true"(³³Ã†ûÿÿÿÿ8¢§ò´‘2
+W	java:S125
+"<This block of commented-out lines of code should be removed.(Ø“óJ8±§ò´‘2
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ü¥±Åøÿÿÿÿ8µ§ò´‘2
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(õîêýÿÿÿÿ8·§ò´‘2
+j	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûó®·8·§ò´‘2
+^
+java:S1854+"ARemove this useless assignment to local variable "optionalValue".(¥‚¼8¸§ò´‘2
+c
+java:S1854""ARemove this useless assignment to local variable "emptyOptional".(íš‰Úûÿÿÿÿ8¹§ò´‘2
+T
+java:S1481""2Remove this unused "emptyOptional" local variable.(íš‰Úûÿÿÿÿ8Ì§ò´‘2
+O
+java:S1481+"2Remove this unused "optionalValue" local variable.(¥‚¼8Ð§ò´‘2
+U	java:S106/"9Replace this use of System.out or System.err by a logger.(¤‡ò•8Ñ§ò´‘2
+Z	java:S1061"9Replace this use of System.out or System.err by a logger.(õîêýÿÿÿÿ8Ó§ò´‘2
+Z	java:S1066"9Replace this use of System.out or System.err by a logger.(æ§‚øÿÿÿÿ8Õ§ò´‘2
+X	java:S125:"<This block of commented-out lines of code should be removed.(µü–Ã8Ú§ò´‘2

@@ -52,17 +52,17 @@ public class Test {
         // Providing a default value
         String defaultValue = optionalWithValue.orElse("Default Value");
         System.out.println("Value or default: " + defaultValue);
-        
-         // Executing a block if value is present
-         optionalWithValue.ifPresent(value ->
-         System.out.println("Value from ifPresent: " + value));
-         
-         // Transforming the value if present
-         Optional<String> upperCaseOptional =
-         optionalWithValue.map(String::toUpperCase);
-         upperCaseOptional.ifPresent(value -> System.out.println("Transformed value: "
-         + value));
-         }
+//        defaultValue
+//         // Executing a block if value is present
+//         optionalWithValue.ifPresent(value ->
+//         System.out.println("Value from ifPresent: " + value));
+//
+//         // Transforming the value if present
+//         Optional<String> upperCaseOptional =
+//         optionalWithValue.map(String::toUpperCase);
+//         upperCaseOptional.ifPresent(value -> System.out.println("Transformed value: "
+//         + value));
+//         }
         
     }
 

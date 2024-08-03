@@ -9,3 +9,9 @@ I
 Multithereading/test.java,7\3\73009194114d9883b2c56d44e9a9620d351fc613
 L
 Recursion/medium/SubSet.java,5\d\5d1ebc8e18eeb5eee175a12ce6f0edca28eb3845
+C
+Optionals/Test.java,e\3\e3f67c9e37df09d3f224c01c0f2ad0bcf2ceee6c
+H
+LinkList/Basic/What.java,2\8\28bf554d1476fc985ea23e10649a16631a1ce5f3
+Q
+!Arrays/ArrayBasic/LongestSub.java,7\c\7c76d61e531d24f5c8ea4515399f4768ffe2ecfd

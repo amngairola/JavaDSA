@@ -1,0 +1,11 @@
+
+a	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(„ßÚI
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(óÎ °ùÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(òäÔ
+P
+java:S1161	":Add the "@Override" annotation above this method signature(“–ış
+N	java:S106"9Replace this use of System.out or System.err by a logger.(‚¤Š£
+]
+java:S2094"BRemove this empty class, write its code or make it an "interface".(óÎ °ùÿÿÿÿ
+D
+java:S1068")Remove this unused "tname" private field.(…î­ğûÿÿÿÿ
