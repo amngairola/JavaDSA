@@ -23,7 +23,8 @@ public class DublyLL {
     public static void main(String[] args) {
         int[] arr = { 1, 2, 5, 4, 6 };
         Node head = convertArr(arr);
-        head = deleteByValue(head, 5);
+        head = insertK(head, 5, 8);
+
         print(head);
     }
 
@@ -66,7 +67,7 @@ public class DublyLL {
 
         return head;
     }
-    // 1- delete the Tail
+    // 2- delete the Tail
 
     static Node removeTail(Node head) {
 
@@ -83,7 +84,7 @@ public class DublyLL {
         return head;
     }
 
-    // delete the kth element
+    // 3- delete the kth element
 
     static Node deleteK(Node head, int k) {
 
@@ -119,32 +120,17 @@ public class DublyLL {
         return head;
     }
 
-    // delete by value
+    // 4- delete by value
 
-    static Node deleteByValue(Node head, int val) {
-
-        Node temp = head;
-
-        while (temp.next != null) {
-            if (temp.data == val) {
-                break;
-            }
-            temp = temp.next;
-        }
+    static void deleteByValue(Node temp) {
 
         Node back = temp.prev;
         Node front = temp.next;
 
-        if (back == null && front == null) {
-            return null;
-
-        }
-        if (back == null) {
-            return removeHead(head);
-        }
-
         if (front == null) {
-            return removeTail(head);
+            back.next = null;
+            temp.prev = null;
+            return;
         }
 
         back.next = front;
@@ -152,6 +138,60 @@ public class DublyLL {
 
         temp.prev = null;
         temp.next = null;
+
+    }
+
+    // -----Insertion------
+
+    // 1--- at the beginning
+
+    static Node BeforeHead(Node head, int val) {
+        Node newHead = new Node(val, head, null);
+        head.prev = newHead;
+
+        return newHead;
+    }
+
+    // 2- before the tail
+
+    static Node BeforeTail(Node head, int val) {
+        Node temp = head;
+
+        while (temp != null) {
+            if (temp.next == null) {
+                break;
+            }
+            temp = temp.next;
+        }
+
+        Node tmp = new Node(val, temp, temp.prev);
+
+        temp.prev.next = tmp;
+        temp.prev = tmp;
+
+        return head;
+    }
+
+    // 3---insert before k---
+    static Node insertK(Node head, int k, int val) {
+
+        if (k == 1) {
+            return BeforeHead(head, val);
+        }
+
+        int cnt = 0;
+        Node temp = head;
+        while (temp != null) {
+            cnt += 1;
+            if (cnt == k)
+                break;
+            temp = temp.next;
+        }
+        Node back = temp.prev;
+
+        Node tmp = new Node(val, temp, back);
+        back.next = tmp;
+        temp.prev = tmp;
 
         return head;
     }
